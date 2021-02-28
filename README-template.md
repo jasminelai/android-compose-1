@@ -18,6 +18,9 @@
 <!-- You can add more screenshots here if you like -->
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
 
+#Credits
+Icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/)
+
 ## License
 ```
 Copyright 2020 The Android Open Source Project
