@@ -13,15 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.jasminelai.petadoption
 
-import androidx.compose.ui.graphics.Color
-
-val teal200 = Color(0xFFe5ffff)
-val teal500 = Color(0xFFb2dfdb)
-val teal700 = Color(0xFF82ada9)
-
-val pastelTeal = Color(0xFFC1E7E3)
-val pastelBlue = Color(0xFFBFD1DF)
-val pastelPurple = Color(0xFFDABFDE)
-val pastelMauve = Color(0xFFC1BBDD)
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * See [testing documentation](http://d.android.com/tools/testing).
+ */
+class ExampleUnitTest {
+    // Add unit tests here
+}

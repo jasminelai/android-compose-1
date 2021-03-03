@@ -13,14 +13,42 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.jasminelai.petadoption.model
 
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Shapes
-import androidx.compose.ui.unit.dp
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
 
-val shapes = Shapes(
-    small = RoundedCornerShape(4.dp),
-    medium = RoundedCornerShape(4.dp),
-    large = RoundedCornerShape(0.dp)
-)
+@Parcelize
+data class Pet(
+    val name: String,
+    val species: Species,
+    val personality: Personality,
+    val sex: Sex,
+    val hobbies: String = ""
+) : Parcelable
+
+@Parcelize
+enum class Species : Parcelable {
+    DOG,
+    CAT,
+    SQUIRREL,
+    RABBIT
+}
+
+@Parcelize
+enum class Personality : Parcelable {
+    CRANKY,
+    PEPPY,
+    SISTERLY,
+    LAZY,
+    NORMAL,
+    SNOOTY,
+    JOCK,
+    SMUG
+}
+
+@Parcelize
+enum class Sex : Parcelable {
+    MALE,
+    FEMALE
+}
